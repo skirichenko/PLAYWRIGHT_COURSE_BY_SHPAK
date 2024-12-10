@@ -12,4 +12,6 @@ test('Advanced interaction', async({page}) => {
     //expect(await page.getByText('Cute cat')).toBeVisible()
     expect(await page.getByAltText('Cute Cat').count()).toBe(1)
 
+
+    
 })
