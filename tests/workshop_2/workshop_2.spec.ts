@@ -29,7 +29,10 @@ test('Todo item can be edited', async ({}) => {
     expect(await toDoMVCpage.isVisible('Mleko')).toEqual(false)
 })
 
-test('Todo item can be checked (completed)', async ({}) => {
+test('Todo item can be checked (completed)', 
+    
+    
+    async ({}) => {
     
     //check 1st, 3d, but do not check 2nd
     await toDoMVCpage.checkItem('Xleb')
